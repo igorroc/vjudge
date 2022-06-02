@@ -27,7 +27,7 @@ int main() {
 
         getline(cin, line);
     }
-    
+
     while (cin >> line) {
         auto it = dictio.find(line);
         if (it != dictio.end()) {
